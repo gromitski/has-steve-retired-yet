@@ -30,7 +30,8 @@
       if (distance < 0) {
         document.getElementById("headline").innerText = "YES!!! He's Retired!";
         document.getElementById("countdown").style.display = "none";
-        document.getElementById("content").style.display = "block";
+        document.getElementById("success").style.display = "block";
+        document.body.classList.add('successClass');
         clearInterval(x);
       }
       //seconds

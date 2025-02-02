@@ -29,9 +29,12 @@ body {
   text-align: center;
 }
 
+.successClass {
+  background-color: #81ffb8;
+}
+
 h1 {
   font-size: 5em;
-  /*font-weight: strong;*/
   letter-spacing: 0.125rem;
   text-transform: uppercase;
 }
