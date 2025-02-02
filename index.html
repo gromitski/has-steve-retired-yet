@@ -10,35 +10,23 @@
 </head>
 
 <body>
-  <!-- A skip link to allow keyboard users to bypass repetitive navigation -->
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  
-  <!-- Example header using semantic elements -->
-  <header role="banner">
-    <h1>Welcome to My Website</h1>
-    <!-- Navigation with proper aria-label -->
-    <nav role="navigation" aria-label="Main Navigation">
-      <ul>
-        <li><a href="#main-content">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
+        <h1 id="headline">Not Yet!</h1>
+        <div id="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div>
 
-  <!-- Main content region -->
-  <main id="main-content" role="main">
-    <section>
-      <h2>Introduction</h2>
-      <p>This is a basic webpage template designed to be accessible and efficient.</p>
-    </section>
-    <!-- Additional sections and content go here -->
-  </main>
-
-  <!-- Footer area -->
-  <footer role="contentinfo">
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
   
   <!-- Link to external JavaScript with defer to improve performance -->
   <script src="main.js" defer></script>
