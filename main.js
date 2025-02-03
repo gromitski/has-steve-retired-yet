@@ -8,7 +8,7 @@
     dd = String(today.getDate()).padStart(2, "0"),
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
-    targetDay = "02/03/2025"; // US date - mm/dd/yyyy
+    targetDay = "05/09/2025"; // US date - mm/dd/yyyy
 
   const countDown = new Date(targetDay).getTime(),
     x = setInterval(function () {
